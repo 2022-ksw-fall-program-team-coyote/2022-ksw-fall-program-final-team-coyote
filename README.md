@@ -2,11 +2,21 @@
 
 # Team Coyote2 : Deep Learning
 
-📑 *Project Title*
+---
+
+*Project Title*
         
-    Comparison of Combinations of Machine Learning and Feature Extraction Methods for Coyote Howling Detection<img width="2157" alt="image" src="https://user-images.githubusercontent.com/101625865/207947834-eb146fef-dc1a-43fb-b9c4-526ed9a3f019.png">
+    Comparison of Combinations of Machine Learning and Feature Extraction Methods for Coyote Howling Detection
+    
+---
 
+---
 
+*Project Period*
+
+    Sep/05/2022 ~ Dec/19/2022 
+
+---
 
 ## Contents
 1. [Team](#team)
@@ -21,6 +31,9 @@
     - [Experiment](#experiment)
     - [Result](#result)    
 
+
+---
+
 # Team
 
 | Name         | University               | Department                                   | Email               | Contact                        |
@@ -32,23 +45,31 @@
 | Jihyun Park  | Jeju National University | Dept. of Computer Science & Statistics       | mmmszip@gmail.com   | https://github.com/mmmtobezip  |
 | Griffin Pegg | Purdue University        | Dept. of Computer and Information Technology | pegge@purdue.edu    | https://github.com/coyotehowls |
 
+---
 
+---
 
 # Overview 
 <img width="866" alt="overview of coyote2" src="https://user-images.githubusercontent.com/51157811/196322339-95cadce6-5926-4d39-9579-ad5968d65c27.PNG">
 
+---
 
+---
 # Research problem statements 
 
 The attacks on livestock, human, and crops by coyotes are occurring over the United States, while traditional simple management such as public education about the method of avoiding coyotes and coyote hunting contests to reduce their numbers are executed. There are not sufficient cases of technical approaches or research about the damage to coyotes. 
 
+---
 
+---
 
 # Research novelty 
 
 The method of coyote howling sound classification using Convolutional Neural Network (CNN) to reduce the damage of coyotes is needed. This paper suggests using a network connection in order to prevent the damage by informing the neighborhood farms when coyotes appear and chasing coyotes through a coyote alert system. It is expected that additional technical approach to current coyote damage prevention can improve the accuracy and make the previous management more practical.
 
+---
 
+---
 
 # Requirements
 ### version
@@ -58,11 +79,19 @@ The method of coyote howling sound classification using Convolutional Neural Net
 
 `Librosa`
 
+---
+
+---
+
 ### Configuration
 
 ```python
 conda install -c conda-forge pyngrok  
 ```
+
+---
+
+---
 
 ### file structure
 C:.  
@@ -80,14 +109,18 @@ C:.
     ├─train_mel    
     └─valid_mel  
  
+---
+
+---
 
 # Technology Stack
 
 # <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
 
+---
 
+---
 
-# Deep Learning
 ## Dataset
 There are a total of 1,160 training dataset. It consisted of 586 coyotes, 480 dogs, and 94 chickens. And the test data set is a total of 280 sheets. It consisted of 134 coyotes, 117 dogs, and 29 chickens.
 Training data and test data were divided in a total ratio of 8:2.
@@ -102,6 +135,10 @@ The experimental setting is as follows:
 - Epoch : 100. 
 - Sampling rate : 16,000 (MFCC)
 
+---
+
+---
+
 ## Experiment
 
 
@@ -113,3 +150,5 @@ The experimental setting is as follows:
 The loss value of the evaluation set : 0.0324
 
 the accuracy was 279 out of 280
+        
+---
