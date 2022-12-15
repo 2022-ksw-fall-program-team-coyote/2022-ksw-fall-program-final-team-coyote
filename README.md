@@ -1,5 +1,4 @@
-# 2022-ksw-fall-program-fianl-team-coyote
-## Coyote Project
+## 2022-ksw-fall-program-fianl-team-coyote
 
 # Team Coyote2 : Deep Learning
 
