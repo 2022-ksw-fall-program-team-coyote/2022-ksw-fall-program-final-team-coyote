@@ -1,6 +1,12 @@
-## 2022-ksw-fall-program-fianl-team-coyote
+### 2022_KSW_Fall_Program
 
 # Team Coyote2 : Deep Learning
+
+📑 *Project Title*
+        
+    Comparison of Combinations of Machine Learning and Feature Extraction Methods for Coyote Howling Detection<img width="2157" alt="image" src="https://user-images.githubusercontent.com/101625865/207947834-eb146fef-dc1a-43fb-b9c4-526ed9a3f019.png">
+
+
 
 ## Contents
 1. [Team](#team)
