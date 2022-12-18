@@ -1,24 +1,17 @@
 ### 2022_KSW_Fall_Program
 
 # Team Coyote2 : Deep Learning
-
----
-
-*Project Title*
+### Project Title
         
     Comparison of Combinations of Machine Learning and Feature Extraction Methods for Coyote Howling Detection
+
+### Project Period
+
+    Sep/05/2022 ~ Dec/19/2022 
     
 ---
 
----
-
-*Project Period*
-
-    Sep/05/2022 ~ Dec/19/2022 
-
----
-
-## Contents
+### Contents
 1. [Team](#team)
 2. [Overview](#overview) 
 3. [Research problem statements](#research-problem-statements)
@@ -30,11 +23,10 @@
     - [Model & Hyper Parameters](#model-&-hyper-parameters)
     - [Experiment](#experiment)
     - [Result](#result)    
+    
+ ---
 
-
----
-
-# Team
+### Team
 
 | Name         | University               | Department                                   | Email               | Contact                        |
 | :------------- | :------------------------: | :--------------------------------------------: | :-------------------: | :------------------------------: |
@@ -45,33 +37,18 @@
 | Jihyun Park  | Jeju National University | Dept. of Computer Science & Statistics       | mmmszip@gmail.com   | https://github.com/mmmtobezip  |
 | Griffin Pegg | Purdue University        | Dept. of Computer and Information Technology | pegge@purdue.edu    | https://github.com/coyotehowls |
 
----
-
----
-
-# Overview 
+### Overview 
 <img width="866" alt="overview of coyote2" src="https://user-images.githubusercontent.com/51157811/196322339-95cadce6-5926-4d39-9579-ad5968d65c27.PNG">
 
----
-
----
-# Research problem statements 
+### Research problem statements 
 
 The attacks on livestock, human, and crops by coyotes are occurring over the United States, while traditional simple management such as public education about the method of avoiding coyotes and coyote hunting contests to reduce their numbers are executed. There are not sufficient cases of technical approaches or research about the damage to coyotes. 
 
----
-
----
-
-# Research novelty 
+### Research novelty 
 
 The method of coyote howling sound classification using Convolutional Neural Network (CNN) to reduce the damage of coyotes is needed. This paper suggests using a network connection in order to prevent the damage by informing the neighborhood farms when coyotes appear and chasing coyotes through a coyote alert system. It is expected that additional technical approach to current coyote damage prevention can improve the accuracy and make the previous management more practical.
 
----
-
----
-
-# Requirements
+### Requirements
 ### version
 `Python 3.7 ~ 3.9`
 
@@ -81,43 +58,55 @@ The method of coyote howling sound classification using Convolutional Neural Net
 
 ---
 
----
-
 ### Configuration
 
 ```python
 conda install -c conda-forge pyngrok  
 ```
-
 ---
-
----
-
 ### file structure
-C:.  
-│  base_line.ipynb  
-│  make_mel_s.ipynb  
-│  move_wav_file.ipynb  
-│  train.csv  
-│  valid.csv  
-│  
-├─dataset  
-│  ├─train  
-│  └─valid   
-├─dataset_all  
-└─mel_spectrogram
-    ├─train_mel    
-    └─valid_mel  
- 
----
-
+    📦2022-ksw-fall-program-fianl-team-coyote/
+      └📂dataset
+        └📂make_audio_dataset
+          └📜audio_split.ipynb
+          └📜csv_extraction.ipynb
+        └📂make_image_dataset
+          └📜image_extraction.ipynb
+        └📂image
+          └📂img_mfcc_8000
+           └📜bird_1.jpg
+           └...
+          └📂img_mfcc_16000 
+           └📜bird_1.jpg
+           └...
+          └📂img_melspect_8000
+           └📜bird_1.jpg
+           └...
+          └📂img_melspect_16000
+           └📜bird_1.jpg
+           └...
+        └📂audio
+          └📜bird_1.wav
+          └...
+        └📜valid.csv
+        └📜train.csv
+        └📜test.csv
+     └📂code
+       └📂deep_learning
+        └📜audio.ipynb
+        └📜image.ipynb
+       └📂machine_learning
+        └📜audio.ipynb
+        └📜image.ipynb
+       └📂mic
+        └📜mic_experiment.py
+        └📜utils.py
+        └📜audio_mfcc_16000_best_model_.pth 
 ---
 
 # Technology Stack
 
 # <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
-
----
 
 ---
 
@@ -137,7 +126,6 @@ The experimental setting is as follows:
 
 ---
 
----
 
 ## Experiment
 
