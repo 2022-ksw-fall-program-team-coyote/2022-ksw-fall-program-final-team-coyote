@@ -3,11 +3,11 @@
 # Team Coyote2 : Deep Learning
 ### Project Title
         
-    Comparison of Combinations of Machine Learning and Feature Extraction Methods for Coyote Howling Detection
+- Comparison of Combinations of Machine Learning and Feature Extraction Methods for Coyote Howling Detection
 
 ### Project Period
 
-    Sep/05/2022 ~ Dec/19/2022 
+- Sep/05/2022 ~ Dec/19/2022 
   
 <!-- ### Contents
 1. [Team](#team)
@@ -39,16 +39,16 @@
 
 ### Research problem statements 
 
-    The attacks on livestock, human, and crops by coyotes are occurring over the United States, while traditional simple management such as public
-    education about the method of avoiding coyotes and coyote hunting contests to reduce their numbers are executed. There are not sufficient cases of
-    technical approaches or research about the damage to coyotes. 
+The attacks on livestock, human, and crops by coyotes are occurring over the United States, while traditional simple management such as public
+education about the method of avoiding coyotes and coyote hunting contests to reduce their numbers are executed. There are not sufficient cases of
+technical approaches or research about the damage to coyotes. 
 
 ### Research novelty 
 <!--수정필요-->
-    The method of coyote howling sound classification using Convolutional Neural Network (CNN) to reduce the damage of coyotes is needed. 
-    This paper suggests using a network connection in order to prevent the damage by informing the neighborhood farms when coyotes appear and chasing 
-    coyotes through a coyote alert system. It is expected that additional technical approach to current coyote damage prevention can improve the accuracy 
-    and make the previous management more practical.
+ The method of coyote howling sound classification using Convolutional Neural Network (CNN) to reduce the damage of coyotes is needed. 
+ This paper suggests using a network connection in order to prevent the damage by informing the neighborhood farms when coyotes appear and chasing 
+ coyotes through a coyote alert system. It is expected that additional technical approach to current coyote damage prevention can improve the accuracy 
+ and make the previous management more practical.
     
 <!-- ### Requirements
 ### version
@@ -106,14 +106,19 @@ conda install -c conda-forge pyngrok
         └📜audio_mfcc_16000_best_model_.pth 
 
 ### Dataset
-    There is a total of 3,829 files in the dataset. It consists of 1,935 coyote sounds and 1,894 non-coyote sounds. 
-    The non-coyote dataset has dogs, chicken, foxes and birds. The number of dogs is 503, chicken is 593, foxes is 201, and birds is 597. 
-    The dataset is divided into a train, validation, and test. 
-    The train data has 2,297 files, the validation data is equal to 766, and the test data has 766 files and the ratio is 6:2:2. 
+ There is a total of 3,829 files in the dataset. It consists of 1,935 coyote sounds and 1,894 non-coyote sounds. 
+ The non-coyote dataset has dogs, chicken, foxes and birds. The number of dogs is 503, chicken is 593, foxes is 201, and birds is 597. 
+ The dataset is divided into a train, validation, and test. 
+ The train data has 2,297 files, the validation data is equal to 766, and the test data has 766 files and the ratio is 6:2:2. 
+ 
 ### Model & Hyper Parameter
 
     The experimental setting is as follows: 
     
+    ✔ OS
+    - Raspberry Pi OS : Debian (64-bit)
+    - Python version 3.8.10 
+    - Raspberry Pi 4 Model B+ (4GB)
     ✔ Aduio
     - Optimization function : Adam optimizer
     - Learning rate : 0.001, the 
