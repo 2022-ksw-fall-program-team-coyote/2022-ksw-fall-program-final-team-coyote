@@ -3,12 +3,11 @@
 # Team Coyote2 : Deep Learning
 ### Project Title
         
-- Comparison of Combinations of Machine Learning and Feature Extraction Methods for Coyote Howling Detection
+ Comparison of Combinations of Machine Learning and Feature Extraction Methods for Coyote Howling Detection
 
 ### Project Period
+ Sep/05/2022 ~ Dec/19/2022 
 
-- Sep/05/2022 ~ Dec/19/2022 
-  
 <!-- ### Contents
 1. [Team](#team)
 2. [Overview](#overview) 
@@ -35,7 +34,9 @@
 
 
 ### Overview 
-<img width="866" alt="overview of coyote2" src="https://user-images.githubusercontent.com/51157811/196322339-95cadce6-5926-4d39-9579-ad5968d65c27.PNG">
+<p align="center">
+        <img width="1090" alt="Project Overview" src="https://user-images.githubusercontent.com/101625865/208316299-e9b93b6f-1490-4d27-b444-87749f42c18d.png">
+</p>
 
 ### Research problem statements 
 
