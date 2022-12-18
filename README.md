@@ -8,19 +8,19 @@
 ### Project Period
  Sep/05/2022 ~ Dec/19/2022 
 
-<!-- ### Contents
-1. [Team](#team)
-2. [Overview](#overview) 
+### Project Content
+1. [Collaborator](#collaborator)
+2. [Project Overview](#project-overview) 
 3. [Research problem statements](#research-problem-statements)
 4. [Research novelty](#research-novelty)
-5. [Technology Stack](#technology-stack)
-6. [Environment Setting](#environment setting)
+5. [Environment Setting](#environment-setting)
+    - [File Structure] (#file-structure)
     - [Dataset](#dataset)
     - [Requirments](#requirments)
-    - [Model & Hyper Parameters](#model-&-hyper-parameters)
-7. [Experiment](#Experiment)
-    - [Result](#result)     -->
-
+6. [Experiment](#experiment)
+    
+    - [Result](#result)     
+- [Best Model & Hyper Parameters](#model-&-hyper-parameters)
 ### Collaborator
 
 | Name         | University               | Department                                   | Email               | Contact                        |
@@ -33,7 +33,7 @@
 | Griffin Pegg | Purdue University        | Dept. of Computer and Information Technology | pegge@purdue.edu    | https://github.com/coyotehowls |
 
 
-### Overview 
+### Proejct Overview
 <p align="center">
         <img width="1090" alt="Project Overview" src="https://user-images.githubusercontent.com/101625865/208316299-e9b93b6f-1490-4d27-b444-87749f42c18d.png">
 </p>
@@ -129,6 +129,7 @@ conda install -c conda-forge pyngrok
     ✔ Image
 
 ---
+### Experiment
 <!-- 
 ## Experiment
 
