@@ -8,25 +8,21 @@
 ### Project Period
 
     Sep/05/2022 ~ Dec/19/2022 
-    
----
-
-### Contents
+  
+<!-- ### Contents
 1. [Team](#team)
 2. [Overview](#overview) 
 3. [Research problem statements](#research-problem-statements)
 4. [Research novelty](#research-novelty)
-5. [Requirements](#requirements)
-6. [Technology Stack](#technology-stack)
-7. [Deep Learning](#deep-learning)
-    - [dataset](#dataset)
+5. [Technology Stack](#technology-stack)
+6. [Environment Setting](#environment setting)
+    - [Dataset](#dataset)
+    - [Requirments](#requirments)
     - [Model & Hyper Parameters](#model-&-hyper-parameters)
-    - [Experiment](#experiment)
-    - [Result](#result)    
-    
- ---
+7. [Experiment](#Experiment)
+    - [Result](#result)     -->
 
-### Team
+### Collaborator
 
 | Name         | University               | Department                                   | Email               | Contact                        |
 | :------------- | :------------------------: | :--------------------------------------------: | :-------------------: | :------------------------------: |
@@ -37,34 +33,40 @@
 | Jihyun Park  | Jeju National University | Dept. of Computer Science & Statistics       | mmmszip@gmail.com   | https://github.com/mmmtobezip  |
 | Griffin Pegg | Purdue University        | Dept. of Computer and Information Technology | pegge@purdue.edu    | https://github.com/coyotehowls |
 
+
 ### Overview 
 <img width="866" alt="overview of coyote2" src="https://user-images.githubusercontent.com/51157811/196322339-95cadce6-5926-4d39-9579-ad5968d65c27.PNG">
 
 ### Research problem statements 
 
-The attacks on livestock, human, and crops by coyotes are occurring over the United States, while traditional simple management such as public education about the method of avoiding coyotes and coyote hunting contests to reduce their numbers are executed. There are not sufficient cases of technical approaches or research about the damage to coyotes. 
+    The attacks on livestock, human, and crops by coyotes are occurring over the United States, while traditional simple management such as public
+    education about the method of avoiding coyotes and coyote hunting contests to reduce their numbers are executed. There are not sufficient cases of
+    technical approaches or research about the damage to coyotes. 
 
 ### Research novelty 
-
-The method of coyote howling sound classification using Convolutional Neural Network (CNN) to reduce the damage of coyotes is needed. This paper suggests using a network connection in order to prevent the damage by informing the neighborhood farms when coyotes appear and chasing coyotes through a coyote alert system. It is expected that additional technical approach to current coyote damage prevention can improve the accuracy and make the previous management more practical.
-
-### Requirements
+<!--수정필요-->
+    The method of coyote howling sound classification using Convolutional Neural Network (CNN) to reduce the damage of coyotes is needed. 
+    This paper suggests using a network connection in order to prevent the damage by informing the neighborhood farms when coyotes appear and chasing 
+    coyotes through a coyote alert system. It is expected that additional technical approach to current coyote damage prevention can improve the accuracy 
+    and make the previous management more practical.
+    
+<!-- ### Requirements
 ### version
 `Python 3.7 ~ 3.9`
 
 `Colab` 
 
 `Librosa`
+ -->
 
----
-
-### Configuration
+<!-- ### Configuration
 
 ```python
 conda install -c conda-forge pyngrok  
-```
----
-### file structure
+``` -->
+## Environment Setting
+
+### File Structure
     📦2022-ksw-fall-program-fianl-team-coyote/
       └📂dataset
         └📂make_audio_dataset
@@ -102,31 +104,26 @@ conda install -c conda-forge pyngrok
         └📜mic_experiment.py
         └📜utils.py
         └📜audio_mfcc_16000_best_model_.pth 
----
 
-# Technology Stack
+### Dataset
+    There is a total of 3,829 files in the dataset. It consists of 1,935 coyote sounds and 1,894 non-coyote sounds. 
+    The non-coyote dataset has dogs, chicken, foxes and birds. The number of dogs is 503, chicken is 593, foxes is 201, and birds is 597. 
+    The dataset is divided into a train, validation, and test. 
+    The train data has 2,297 files, the validation data is equal to 766, and the test data has 766 files and the ratio is 6:2:2. 
+### Model & Hyper Parameter
 
-# <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
-
----
-
-## Dataset
-There are a total of 1,160 training dataset. It consisted of 586 coyotes, 480 dogs, and 94 chickens. And the test data set is a total of 280 sheets. It consisted of 134 coyotes, 117 dogs, and 29 chickens.
-Training data and test data were divided in a total ratio of 8:2.
-
-## Model & Hyper Parameter
-
-The experimental setting is as follows: 
-
-- Optimization function : Adam optimizer
-- Learning rate : 0.001, the 
-- Batch size : 10, and the
-- Epoch : 100. 
-- Sampling rate : 16,000 (MFCC)
+    The experimental setting is as follows: 
+    
+    ✔ Aduio
+    - Optimization function : Adam optimizer
+    - Learning rate : 0.001, the 
+    - Batch size : 10, and the
+    - Epoch : 100. 
+    - Sampling rate : 16,000 (MFCC)
+    ✔ Image
 
 ---
-
-
+<!-- 
 ## Experiment
 
 
@@ -140,3 +137,4 @@ The loss value of the evaluation set : 0.0324
 the accuracy was 279 out of 280
         
 ---
+ -->
