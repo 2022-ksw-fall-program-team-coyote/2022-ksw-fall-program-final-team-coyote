@@ -96,7 +96,7 @@ Before you run the code, Install various necessary packages.
     
     #for torch 
     conda install pytorch torchvision torchaudio cpuonly -c pytorch<br>
-    You can also install torch using this [link](https://pytorch.org/)
+    You can also install torch using this link(https://pytorch.org/)
 
 >##### Requirements
 
