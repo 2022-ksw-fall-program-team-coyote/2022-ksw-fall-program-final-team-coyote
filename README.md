@@ -55,7 +55,7 @@ technical approaches or research about the damage to coyotes.
 ## Environment Setting
 
 >##### File Structure
-    📦2022-ksw-fall-program-fianl-team-coyote/
+    📦2022-ksw-fall-program-final-team-coyote/
       └📂dataset
         └📂image
           └📂img_mfcc_8000
