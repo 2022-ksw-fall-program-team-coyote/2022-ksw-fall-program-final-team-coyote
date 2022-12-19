@@ -78,9 +78,6 @@ technical approaches or research about the damage to coyotes.
         └📜test.csv
         
      └📂code
-       └📂make_audio_dataset
-        └📜audio_split.ipynb
-        └📜csv_extraction.ipynb
        └📂make_image_dataset
         └📜image_extraction.ipynb
        └📂deep_learning
@@ -113,9 +110,12 @@ technical approaches or research about the damage to coyotes.
 >##### Best Result
 |   |Audio|Image|
 |---|:-:|:-:
-|Sampling Rate|16,000|16,000|
-|Model|CNN Layer 3|CNN Layer 3|
-|Feature Extraction|MFCC|Mel Spectrogram|
+|**Sampling Rate**|16,000 Hz|16,000 Hz|
+|**Model**|CNN Layer 3|CNN Layer 3|
+|**Feature Extraction**|MFCC|Mel Spectrogram|
+|**Accuracy**|0.96|0.93|
+|**F1-Score**|0.96|0.93|
+|**AUC**|0.9882|0.9753|
 
 >##### Model Architecture
 
@@ -131,12 +131,12 @@ Three microphones are connected into raspberry pi. Each microphone records 3 sec
     - Learning rate : 0.001
     - Batch size : 10
     - Epoch : 30 
-    - Sampling rate : 16,000 (MFCC)
+    - Sampling rate : 16,000 Hz (MFCC)
     
     ✔ Image
     - Optimization function : Adam optimizer
     - Learning rate : 0.001
     - Batch size : 32
     - Epoch : 30 
-    - Sampling rate : 16,000 (Mel Spectrogram)
+    - Sampling rate : 16,000 Hz (Mel Spectrogram)
     
