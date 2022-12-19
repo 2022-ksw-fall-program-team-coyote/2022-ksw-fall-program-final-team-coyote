@@ -48,9 +48,9 @@ education about the method of avoiding coyotes and coyote hunting contests to re
 technical approaches or research about the damage to coyotes. 
 
 ## Research novelty 
-    1. This project suggests the optimal coyote detection platform by comparing various feature exatraction and machine learning methods.
-    2. This project suggests the coyote howling sound detection method that does not exist in the past.
-    3. The problem of coyote damage can be solved by technical ways.
+1. This project suggests the optimal coyote detection platform by comparing various feature exatraction and machine learning methods.
+2. This project suggests the coyote howling sound detection method that does not exist in the past.
+3. The problem of coyote damage can be solved by technical ways.
     
 ## Environment Setting
 
