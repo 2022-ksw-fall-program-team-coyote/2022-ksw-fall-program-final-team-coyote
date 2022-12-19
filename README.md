@@ -56,7 +56,7 @@ technical approaches or research about the damage to coyotes.
 
 <details>
 <summary>
-⚙ Settings manual
+⚙ Environment Settings manual
 
 </summary>
 <div markdown="1">
@@ -73,14 +73,13 @@ You can download Python version 3.8 here (https://www.python.org/downloads/relea
 
 3. git clone https://github.com/2022-ksw-fall-program-team-coyote/2022-ksw-fall-program-final-team-coyote.git
 
-4. Open Colab or PyCharm, whatever editor you use 
-You can download PyCharm here (https://www.jetbrains.com/pycharm/download/#section=mac).
+4. Open Colab or PyCharm, whatever editor you use<br>You can download PyCharm here (https://www.jetbrains.com/pycharm/download/#section=mac).
 
-5. Open your git folder as a new project.
+5. Open your git folder as a new project
 
 6. Set the dataset path, refer to the [File Structure](#file-structure) of README.md
 
-7. Run the code. 
+7. Run the code
 </div>
 </details>
 
@@ -96,9 +95,8 @@ Before you run the code, Install various necessary packages.
     pip install numpy pandas matplotlib serial spafe scipy librosa pyaudio 
     
     #for torch 
-    conda install pytorch torchvision torchaudio cpuonly -c pytorch
-
-You can also install torch using this [link](https://pytorch.org/)
+    conda install pytorch torchvision torchaudio cpuonly -c pytorch<br>
+    You can also install torch using this [link](https://pytorch.org/)
 
 >##### Requirements
 
