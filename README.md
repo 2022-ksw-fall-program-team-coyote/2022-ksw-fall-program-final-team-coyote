@@ -89,7 +89,7 @@ technical approaches or research about the damage to coyotes.
        └📂mic
         └📜mic_experiment.py
         └📜utils.py
-        └📜audio_mfcc_16000_best_model_.pth 
+        └📜audio_mfcc_16000_best_model.pth 
        └📜requirements.txt
 
 >##### Dataset
@@ -122,7 +122,9 @@ technical approaches or research about the damage to coyotes.
 <p align="center">
 <img width="1163" alt="Project Overall Architecture" src="https://user-images.githubusercontent.com/101625865/208327334-3429c632-3135-48fb-8b3a-5cf896225ce3.png">
 </p>
-Three microphones are connected into raspberry pi. Each microphone records 3 second repeatedly and we put that data into model right away which put in Raspberry pi. Model will predict whether it is coyote or not. If it was coyote, network team transmit the time stamp to the gateway by Lorawan and three different time values of the coyote sound will determine the location of the coyote. And then they visualize the location on the map.
+
+  Three microphones are connected into raspberry pi. Each microphone records 3 second repeatedly and we put that data into model right away which put in Raspberry pi. Model will predict whether it is coyote or not. If it was coyote, network team transmit the time stamp to the gateway by Lorawan and three different time values of the coyote sound will determine the location of the coyote. And then they visualize the location on the map.
+
 
 >##### Hyper Parameter for Best Model 
 
