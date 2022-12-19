@@ -55,7 +55,7 @@ technical approaches or research about the damage to coyotes.
 ## Environment Setting
 
 >##### File Structure
-    📦2022-ksw-fall-program-fianl-team-coyote/
+    📦2022-ksw-fall-program-final-team-coyote/
       └📂dataset
         └📂image
           └📂img_mfcc_8000
@@ -78,14 +78,11 @@ technical approaches or research about the damage to coyotes.
         └📜test.csv
         
      └📂code
-       └📂make_audio_dataset
-        └📜audio_split.ipynb
-        └📜csv_extraction.ipynb
        └📂make_image_dataset
         └📜image_extraction.ipynb
        └📂deep_learning
-        └📜DL_audio.ipynb
-        └📜DL_image.ipynb
+        └📜CNN_audio.ipynb
+        └📜CNN_image.ipynb
        └📂machine_learning
         └📜ML_audio.ipynb
         └📜ML_image.ipynb
@@ -93,49 +90,53 @@ technical approaches or research about the damage to coyotes.
         └📜mic_experiment.py
         └📜utils.py
         └📜audio_mfcc_16000_best_model_.pth 
-       └📜requirments.txt
+       └📜requirements.txt
 
 >##### Dataset
 <p align="center">
 <img width="712" alt="스크린샷 2022-12-18 오후 6 42 17" src="https://user-images.githubusercontent.com/101625865/208325663-cfcb2bf5-3b74-4823-b3ae-1181f2e66a45.png">
 </p>
 
->##### Requirments
+>##### Requirements
     The experimental setting is as follows: 
        
     - Raspberry Pi OS : Debian (64-bit)
     - Raspberry Pi 4 Model B+ (4GB)
     - Python version 3.8.10
-    - Other Library : requirments.txt 
+    - Other Library : requirements.txt
 
 ## Experiment
 
->##### Result
+>##### Best Result
 |   |Audio|Image|
 |---|:-:|:-:
-|Sampling Rate|16,000|16,000|
-|Model|CNN Layer 3|CNN Layer 3|
-|Feature Extraction|MFCC|Mel Spectrogram|
+|**Sampling Rate**|16,000 Hz|16,000 Hz|
+|**Model**|CNN Layer 3|CNN Layer 3|
+|**Feature Extraction**|MFCC|Mel Spectrogram|
+|**Accuracy**|0.96|0.93|
+|**F1-Score**|0.96|0.93|
+|**AUC**|0.9882|0.9753|
 
 >##### Model Architecture
 
 <p align="center">
 <img width="1163" alt="Project Overall Architecture" src="https://user-images.githubusercontent.com/101625865/208327334-3429c632-3135-48fb-8b3a-5cf896225ce3.png">
 </p>
+Three microphones are connected into raspberry pi. Each microphone records 3 second repeatedly and we put that data into model right away which put in Raspberry pi. Model will predict whether it is coyote or not. If it was coyote, network team transmit the time stamp to the gateway by Lorawan and three different time values of the coyote sound will determine the location of the coyote. And then they visualize the location on the map.
 
->##### Hyper Parameter
+>##### Hyper Parameter for Best Model 
 
     ✔ Audio
     - Optimization function : Adam optimizer
     - Learning rate : 0.001
     - Batch size : 10
     - Epoch : 30 
-    - Sampling rate : 16,000 (MFCC)
+    - Sampling rate : 16,000 Hz (MFCC)
     
     ✔ Image
     - Optimization function : Adam optimizer
     - Learning rate : 0.001
     - Batch size : 32
     - Epoch : 30 
-    - Sampling rate : 16,000 (Mel Spectrogram)
+    - Sampling rate : 16,000 Hz (Mel Spectrogram)
     
