@@ -54,6 +54,61 @@ technical approaches or research about the damage to coyotes.
     
 ## Environment Setting
 
+<details>
+<summary>
+⚙ Settings manual
+
+</summary>
+<div markdown="1">
+
+
+Before you run the code, Python version 3.8.16 and Colab or PyCharm are required. 
+
+The experimental setting is as follows: 
+
+1. Install Python 
+You can download Python version 3.8 here (https://www.python.org/downloads/release/python-3815/).
+
+2. Set the environment variables for each OS
+
+3. git clone https://github.com/2022-ksw-fall-program-team-coyote/2022-ksw-fall-program-final-team-coyote.git
+
+4. Open Colab or PyCharm, whatever editor you use 
+You can download PyCharm here (https://www.jetbrains.com/pycharm/download/#section=mac).
+
+5. Open your git folder as a new project.
+
+6. Set the dataset path, refer to the [File Structure](#file-structure) of README.md
+
+7. Run the code. 
+</div>
+</details>
+
+<details>
+<summary>
+⚙ Install necessary packages
+
+</summary>
+<div markdown="1">
+
+Before you run the code, Install various necessary packages. 
+
+    pip install numpy pandas matplotlib serial spafe scipy librosa pyaudio 
+    
+    #for torch 
+    conda install pytorch torchvision torchaudio cpuonly -c pytorch
+
+You can also install torch using this [link](https://pytorch.org/)
+
+>##### Requirements
+
+    - Raspberry Pi OS : Debian (64-bit)
+    - Raspberry Pi 4 Model B+ (4GB)
+    - Python version 3.8.16
+
+</div>
+</details>
+
 >##### File Structure
     📦2022-ksw-fall-program-final-team-coyote/
       └📂dataset
@@ -97,13 +152,34 @@ technical approaches or research about the damage to coyotes.
 <img width="712" alt="스크린샷 2022-12-18 오후 6 42 17" src="https://user-images.githubusercontent.com/101625865/208325663-cfcb2bf5-3b74-4823-b3ae-1181f2e66a45.png">
 </p>
 
->##### Requirements
-    The experimental setting is as follows: 
-       
-    - Raspberry Pi OS : Debian (64-bit)
-    - Raspberry Pi 4 Model B+ (4GB)
-    - Python version 3.8.10
-    - Other Library : requirements.txt
+Download available : https://drive.google.com/file/d/1HcJfKdy9F0Fr4ux1qtH_uwq3tFklrtHA/view?usp=sharing
+<details>
+<summary>
+📑Dataset Refer
+
+</summary>
+<div markdown="1">
+Our datasets were collected from below link.</br>
+
+1. Coyote
+- https://search.macaulaylibrary.org/catalog?taxonCode=t-11031961&view=list
+-https://collections.lib.utah.edu/searchq=coyote&fd=title_t%2Csetname_s%2Ctype_t&facet_setname_s=uu_wss
+
+2. Fox
+- https://search.macaulaylibrary.org/catalog?taxonCode=t-11036954&mediaType=audio&searchField=animals&view=list
+- https://acousticatlas.org/search.php?q=red+fox
+
+3. Dog
+- https://research.google.com/audioset///ontology/dog.html
+
+4. Chicken
+- https://research.google.com/audioset/dataset/chicken_rooster.html
+
+5. Bird
+- https://www.kaggle.com/c/birdclef-2021
+
+</div>
+</details>
 
 ## Experiment
 
