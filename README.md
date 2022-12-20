@@ -139,7 +139,7 @@ Before you run the code, Install various necessary packages.
        └📂machine_learning
         └📜ML_audio.ipynb
         └📜ML_image.ipynb
-       └📂mic
+       └📂mic(microphone must be connected to the laptop)
         └📜mic_experiment.py
         └📜utils.py
         └📜audio_mfcc_16000_best_model.pth 
